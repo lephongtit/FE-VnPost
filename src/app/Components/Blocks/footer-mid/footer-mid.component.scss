@@ -1,0 +1,24 @@
+.footer-mid {
+  background: #f7a81b;
+  color: black;
+}
+.footer-col{
+  padding: 30px;
+}
+.footer-mid h2{
+  font-size: 17px;
+  color: #333;
+  font-family: 'Roboto-Medium';
+  padding-bottom: 10px;
+}
+a{
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #ececec;
+}
+footer-col ul li a:before{
+  content: '\2023';
+}

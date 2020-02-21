@@ -1,0 +1,12 @@
+.nav-item{
+  margin-right: 40px;
+}
+.nav-item a{
+  color: white;
+}
+.nav-item:hover{
+  background: rgb(77,5,255) !important;
+  .nav-item:hover a{
+    color: white !important;
+  }
+}
