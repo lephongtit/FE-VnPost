@@ -13,6 +13,9 @@ import { FooterBotComponent } from './Components/Blocks/footer-bot/footer-bot.co
 import { FooterMidComponent } from './Components/Blocks/footer-mid/footer-mid.component';
 import { MainTopComponent } from './Components/Blocks/main-top/main-top.component';
 import { MainBotComponent } from './Components/Blocks/main-bot/main-bot.component';
+import { BuuChinhChuyenPhatComponent } from './buu-chinh-chuyen-phat/buu-chinh-chuyen-phat.component';
+import { LoginComponent } from './login/login.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -26,10 +29,13 @@ import { MainBotComponent } from './Components/Blocks/main-bot/main-bot.componen
     FooterBotComponent,
     FooterMidComponent,
     MainTopComponent,
-    MainBotComponent
+    MainBotComponent,
+    BuuChinhChuyenPhatComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

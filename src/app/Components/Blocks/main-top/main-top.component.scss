@@ -36,7 +36,7 @@
 .main-col ul li a:before {
   content: '\2023';
   margin-right: 5px;
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 3px;
   color: #f7a81b;
 }
@@ -59,4 +59,9 @@ span:hover{
 .main-col a:hover{
   text-decoration: none;
 }
-
+.main-col{
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 70px;
+}

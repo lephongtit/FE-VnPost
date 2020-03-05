@@ -4,9 +4,10 @@
 .nav-item a{
   color: white;
 }
-.nav-item:hover{
-  background: rgb(77,5,255) !important;
-  .nav-item:hover a{
-    color: white !important;
+.nav-item:hover {
+  background: darkblue;
+  a:hover{
+    color: #dddddd;
   }
 }
+

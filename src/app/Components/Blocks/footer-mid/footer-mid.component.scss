@@ -19,6 +19,14 @@ a{
 a:hover{
   color: #ececec;
 }
-footer-col ul li a:before{
+.footer-col ul li a:before{
   content: '\2023';
+  margin-right: 5px;
+  font-size: 18px;
+
+}
+ul, li {
+  margin-left: 8px;
+  padding: 0;
+  list-style: none;
 }
